@@ -10,10 +10,10 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-     from: 'mubashrashraf121@gmail.com',
-     to: 'mubashrbhatti@gmail.com',
-     cc: 'mubbasher_ashraf@ucp.edu.pk',
-     bcc: 'mubbasher_ashraf@ucp.edu.pk',
+     from: '',
+     to: '',
+     cc: '',
+     bcc: '',
      subject: 'Image Embedded',
      text: 'Image is Embedded',
      html: '<h1>Mail send using Gmail Account <hr> <img src = "cid:download" />',
